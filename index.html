@@ -15,7 +15,7 @@
 	img {
 		display: block;
 		margin: auto;
-		width: 500px;
+		width: 100%;
 	}
 </style>
 <title>:v</title>
@@ -23,6 +23,12 @@
 
 <body id="body">
 <h1>Te la creiste we xdxd :v</h1>
-<img src="https://gcdn.emol.cl/vida-salvaje/files/2014/08/wombat-bebe-p.jpg" alt="">
+<img src="https://gcdn.emol.cl/vida-salvaje/files/2014/08/wombat-bebe-p.jpg" alt="" id="img">
+	<script>
+		var img = document.getElementById('img');
+		img.addEventListener('click', function(){
+			alert('No me toques!! >:v');
+		}, false);
+	</script>
 </body>
 </html>
